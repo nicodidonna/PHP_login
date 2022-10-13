@@ -13,7 +13,7 @@
 
 <form action="php/register.php" method="POST">
 
-    <h3 class="text-center">REGISTRATI</h3>
+    <h3 class="text-center">REGISTRAZIONE</h3>
 
     <label for="email">Inserisci la tua emai</label>
     <input type="email" name="email" id="email" required>
@@ -24,8 +24,8 @@
     <label for="password">Inserisci password</label>
     <input type="password" name="password" id="password" required>
 
-    <input type="submit" value="invia">
-    <p>Hai già un account?<a href="login.html">ACCEDI</a></p>
+    <button type="submit" class="btn  btn-primary mt-2">REGISTRATI</button>
+    <p class="mt-1">Hai già un account? <a href="login.html"><b>ACCEDI</b></a></p>
 
 </form>
 

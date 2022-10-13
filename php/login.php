@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                 $_SESSION['id'] = $row['id_utente'];
                 $_SESSION['username'] = $row['username'];
 
-                header("location: ./area-privata.php");
+                header("location: ../area-privata.php");
             }else{
                 echo "La password non è corretta";
             }
